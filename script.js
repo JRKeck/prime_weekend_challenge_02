@@ -48,7 +48,9 @@ $(document).ready(function() {
 		$('.user-repos').children().remove();
 		$('.user-repos').append('<h3 class="repo-header">Repositories</h3>');
 		$.each(data, function(index, object) {
-			$('.user-repos').append('<div class="repo"><div class="stats"><i class="fa fa-code-fork"></i> forks: '+object.forks_count+'</div><a href='+object.html_url+'><h4>'+object.name+'</h4></a><div class="desc">'+object.description+'</div></div>');
+			var push_date = moment(object.pushed_at).format('MMM Mo YYYY');
+			console.log(push_date);
+			$('.user-repos').append('<div class="repo"><div class="stats"><i class="fa fa-clock-o"></i> '+push_date+' <i class="fa fa-code-fork"></i> forks: '+object.forks_count+'</div><a href='+object.html_url+'><h4>'+object.name+'</h4></a><div class="desc">'+object.description+'</div></div>');
 		});
 		console.log(data);
 	}

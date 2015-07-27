@@ -84,6 +84,9 @@ i {
 	color: #FF530D;
 	text-decoration: none;
 }
+.stats i {
+	margin-left: 5px;
+}
 .repo .desc{
 	font-style: italic;
 	padding: 5px 0 0 5px;
