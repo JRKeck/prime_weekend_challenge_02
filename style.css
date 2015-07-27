@@ -1,0 +1,95 @@
+body {
+	font-family: Merriweather;
+	color: #2B3A42;
+}
+header {
+	background-color: #3F5765;
+	color: #fff;
+	padding: 30px 0 70px;
+}
+header h1 {
+	font-family: Montserrat, Helvetica, Arial, Sans-Serif;
+	font-size: 46px;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+header .btn {
+	font-family: Montserrat, Helvetica, Arial, Sans-Serif;
+	font-size: 20px;
+	padding: 10px;
+	border: #fff solid 1px;
+	color: #fff;
+	background-color: #2B3A42;
+}
+header .btn:hover {
+	color: inherit;
+	background-color: #2B3A42;
+
+}
+header .btn:focus {
+	color: inherit;
+	background-color: #2B3A42;
+	outline: none;
+
+}
+input.form-control {
+	padding: 24px;
+	font-size: 20px;
+	color: #fff;
+	background-color: inherit;
+	border-color: #fff;
+}
+input.form-control:focus {
+	color: #fff;
+	background-color: inherit;
+	border-color: #fff;
+}
+input.form-control:-ms-input-placeholder {
+   color:#fff;
+}
+
+input.form-control::-webkit-input-placeholder {
+   color:#fff;
+}
+
+input.form-control:-moz-placeholder {
+   color:#fff;
+}
+
+/* firefox 19+ */
+input.form-control::-moz-placeholder {
+   color:#fff;
+}
+.user h2 {
+	font-family: Montserrat, Helvetica, Arial, Sans-Serif;
+}
+i {
+	color: #FF530D;
+}
+.repo-header {
+	color: #2B3A42;
+	margin-top: 30px;
+	font-family: Montserrat, Helvetica, Arial, Sans-Serif;
+}
+.repo {
+	border-bottom: 1px solid #BDD4DE;
+	color: #3F5765;
+	padding: 10px 5px 10px 10px;
+}
+.repo h4 {
+	margin: 0; 
+}
+.repo a{
+	font-family: Montserrat, Helvetica, Arial, Sans-Serif;
+	color: #FF530D;
+	text-decoration: none;
+}
+.repo .desc{
+	font-style: italic;
+	padding: 5px 0 0 5px;
+	font-size: 95%;
+
+}
+.stats {
+	float: right;
+}
